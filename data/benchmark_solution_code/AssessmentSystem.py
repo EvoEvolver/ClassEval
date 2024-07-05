@@ -64,7 +64,7 @@ class AssessmentSystem:
     def get_top_student(self):
         """
         Calculate every student's gpa with get_gpa method, and find the student with highest gpa
-        :return: str, name of student whose gpa is highest
+        :return: str, name of student whose gpa is highest, or None if none of the students have gpa.
         >>> system.add_student('student 1', 3, 'SE')
         >>> system.add_student('student 2', 2, 'SE')
         >>> system.add_course_score('student 1', 'Computer Network', 92)
