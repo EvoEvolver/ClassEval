@@ -24,7 +24,7 @@ class AssessmentSystem:
         Add score of specific course for student in self.students
         :param name: str, student name
         :param cource: str, cource name
-        :param score: int | None, cource score
+        :param score: int | None, course score
         >>> system.add_student('student 1', 3, 'SE')
         >>> system.add_course_score('student 1', 'math', 94)
         >>> system.students
