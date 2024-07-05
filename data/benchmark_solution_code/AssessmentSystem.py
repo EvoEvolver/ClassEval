@@ -1,5 +1,5 @@
 '''
-# This is a class as an student assessment system, which supports add student, add course score, calculate GPA, and other functions for students and courses.
+# This is a class as a student assessment system, which supports add student, add course score, calculate GPA, and other functions for students and courses.
 
 class AssessmentSystem:
     def __init__(self):
